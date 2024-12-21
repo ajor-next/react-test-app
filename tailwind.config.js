@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+import tailgridsPlugin from "tailgrids/plugin";
+
 export default {
   content: [
     "./index.html",
@@ -7,6 +9,8 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    tailgridsPlugin
+  ],
 }
 
