@@ -9,8 +9,8 @@ function App() {
   return (
     <BrowserRouter>
        <Routes>
-       <Route path="/" element={<WCAGContrastChecker />} />
-       <Route path="/color" element={<ColorChecker />} />
+       <Route path="/color" element={<WCAGContrastChecker />} />
+       <Route path="/" element={<ColorChecker />} />
        <Route path="/demo" element={<DemoCheck />} />
       </Routes>     
     </BrowserRouter>
